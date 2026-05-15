@@ -23,26 +23,31 @@
 }
 
 
-/* base image size control */
-.baseimage {
-    width: 600px;
-    height: auto;
-    display: block;
-}
-
-/* transformation: fragment distortion */
+/* Control the screen, then cut diagonally. */
 .fragment {
     width: 600px;
     margin: 20px auto;
-
     transform: skew(5deg);
-    opacity: 0.9;
 }
 
-/* image glitch effect */
+/* Increase color contrast */
 .fragment img {
     filter: contrast(160%) saturate(140%);
     transform: rotate(-2deg);
 }
 
 
+/* blur + fade effect */
+.blur-fade {
+    width: 600px;
+    margin: 20px auto;
+    transform: scale(1.03);
+    opacity: 0.5;  
+}
+
+/*Gaussian blur*/
+.blur-fade img {
+    width: 100%;
+    filter: blur(4px) contrast(120%) saturate(130%); 
+    transform: rotate(-1.5deg);
+}
