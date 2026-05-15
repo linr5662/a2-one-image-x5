@@ -16,5 +16,7 @@
 
 .transformation1 {
     filter: blur(3px) contrast(180%);
-    opacity: 0.4;
+    opacity: 0.6;
+    /*The color became cooler*/
+    filter: hue-rotate(210deg) saturate(1.8) contrast(1.4);
 }
