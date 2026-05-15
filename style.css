@@ -1,0 +1,6 @@
+/* base image size used for all transformations */
+
+.baseimage{
+    width: 600px;
+    height:auto;
+}
