@@ -8,9 +8,7 @@
 /* #hero-section: the opening full-bleed image section */
 #hero-section {
     width: 100%;
-    height: 100vh;
-
-   
+    height: 100vh;  
     overflow: hidden;
 }
 /* transformation1:burry feeling */
@@ -18,4 +16,5 @@
 
 .transformation1 {
     filter: blur(3px) contrast(180%);
+    opacity: 0.4;
 }
