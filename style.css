@@ -20,3 +20,17 @@
     /*The color became cooler*/
     filter: hue-rotate(210deg) saturate(1.8) contrast(1.4);
 }
+
+/*The image is divided into parts.*/
+.fragment {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+/* cut */
+    transform: skew(6deg);
+}
+.fragment img {
+    width: 100%;
+    filter: contrast(160%) saturate(140%);
+    transform: rotate(-2deg);
+}
