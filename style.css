@@ -67,19 +67,19 @@
 
 
 
-/* Creates a glaring overexposure effect */
-.overexposure {
+/* Creates a glaring overexposure and cold effect */
+.cold-temperature {
     width: 600px;
     margin: 20px auto;
-    opacity: 0.95;
+    opacity: 1;
 }
 
-.overexposure img {
+.cold-temperature img {
      width: 100%;
     filter: 
         brightness(200%)  
         contrast(150%)     
         saturate(140%) 
-        sepia(60%)
-        hue-rotate(-25deg); 
+        sepia(10%)
+        hue-rotate(180deg); 
 }
