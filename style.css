@@ -57,10 +57,10 @@
 .high-contrast {
     width: 600px;
     margin: 20px auto;
-    opacity: 0.99;
+    opacity: 1;
 }
 
 .high-contrast img {
     width: 100%;
-    filter: contrast(600%) saturate(180%) brightness(120%);
+    filter: contrast(600%) saturate(180%) brightness(40%)invert(8%);
 }
