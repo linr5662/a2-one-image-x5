@@ -83,3 +83,11 @@
         sepia(10%)
         hue-rotate(180deg); 
 }
+
+
+/*Change the font of all paragraphs*/
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;  
+    color:rgb(30, 84, 156)
+}
