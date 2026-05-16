@@ -64,3 +64,20 @@
     width: 100%;
     filter: contrast(600%) saturate(180%) brightness(40%)invert(8%);
 }
+
+
+
+/* Creates a glaring overexposure effect */
+.overexposure {
+    width: 600px;
+    margin: 20px auto;
+    opacity: 0.9;
+}
+
+.overexposure img {
+     width: 100%;
+    filter: 
+        brightness(200%)  
+        contrast(150%)     
+        saturate(140%);    
+}
