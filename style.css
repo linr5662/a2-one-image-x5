@@ -8,8 +8,9 @@
 /* #hero-section: the opening full-bleed image section */
 #hero-section {
     width: 100%;
-    height: 100vh;  
-    overflow: hidden;
+    height: 100vh; 
+    overflow: visible;
+    
 }
 /* transformation1:burry feeling */
 
@@ -19,4 +20,34 @@
     opacity: 0.6;
     /*The color became cooler*/
     filter: hue-rotate(210deg) saturate(1.8) contrast(1.4);
+}
+
+
+/* Control the screen, then cut diagonally. */
+.fragment {
+    width: 600px;
+    margin: 20px auto;
+    transform: skew(5deg);
+}
+
+/* Increase color contrast */
+.fragment img {
+    filter: contrast(160%) saturate(140%);
+    transform: rotate(-2deg);
+}
+
+
+/* blur + fade effect */
+.blur-fade {
+    width: 600px;
+    margin: 20px auto;
+    transform: scale(1.03);
+    opacity: 0.5;  
+}
+
+/*Gaussian blur*/
+.blur-fade img {
+    width: 100%;
+    filter: blur(4px) contrast(120%) saturate(130%); 
+    transform: rotate(-1.5deg);
 }
