@@ -71,7 +71,7 @@
 .overexposure {
     width: 600px;
     margin: 20px auto;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .overexposure img {
@@ -79,5 +79,7 @@
     filter: 
         brightness(200%)  
         contrast(150%)     
-        saturate(140%);    
+        saturate(140%) 
+        sepia(60%)
+        hue-rotate(-25deg); 
 }
